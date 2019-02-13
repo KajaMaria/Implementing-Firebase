@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <input type"text" id="textbox">
+      <button onClick = "addTodo()"> Add to do </button>
+
+      <ul id="list"></ul>
+
+
+
+  </head>
+  <body>
+    <script src="https://www.gstatic.com/firebasejs/5.5.9/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAarFj36DQnv2e4Xd88uqiNnF5bIPVrHYg",
+    authDomain: "kaja-c905a.firebaseapp.com",
+    databaseURL: "https://kaja-c905a.firebaseio.com",
+    projectId: "kaja-c905a",
+    storageBucket: "kaja-c905a.appspot.com",
+    messagingSenderId: "325160864358"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+    <script src="./main.js"></script>
+  </body>
+</html>
